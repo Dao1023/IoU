@@ -12,7 +12,7 @@
 
 根据数学公式，把三个参数计算出来。
 
-![四部分](assets\四部分.png)
+![四部分](assets/四部分.png)
 
 计算部分如下，相信很容易看出来。
 
@@ -49,12 +49,12 @@ function calculateOverlap() {
 
 然后再增加方框可拖动，面积可修改即可。
 
+因为 Github 风味的 Markdown 不支持 `iframe` 标签，我就不放在 README.md 里了。
 
+`<iframe src='index.html'></iframe>`
 
-下文我嵌入一个 `iframe` 标签，可以试试 Github 的 markdown 渲染器支不支持
+不过这个 html 我用其他 md 渲染器也没加载出来。
 
-<iframe src='index.html'></iframe>
+但下文中这首歌的 `iframe` 在 Obsidian 上可以渲染出来，可能和 Obsidian 是 Electron 开发的有关。
 
-顺带再测试一个我喜欢的歌，这个歌的 `iframe` 在 Obsidian 上可以渲染出来，可能和 Obsidian 是 Electron 开发的有关。
-
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=100% src="https://music.163.com/outchain/player?type=2&id=1859652717&auto=0&height=66"></iframe>
+`<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=100% src="https://music.163.com/outchain/player?type=2&id=1859652717&auto=0&height=66"></iframe>`
