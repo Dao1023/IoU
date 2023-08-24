@@ -4,6 +4,8 @@
 
 既然是数学公式，我就想做个可视化，于是写了一点 HTML，简洁地表达了这个概念。
 
+预览网站：https://dao1023.github.io/IoU/
+
 ## 设计思路
 
 识别其实很简单，就是「输入问题」和「输出答案」，我们各自用「绿框」和「橙框」表示出来。
@@ -49,12 +51,18 @@ function calculateOverlap() {
 
 然后再增加方框可拖动，面积可修改即可。
 
-因为 Github 风味的 Markdown 不支持 `iframe` 标签，我就不放在 README.md 里了。
+## 展示
+
+因为就是一个 HTML，我觉得应该可以直接预览，这样就不要下载了。
+
+一开始想用 Markdown 加载 HTML，但因为 Github 风味的 Markdown 不支持 `iframe` 标签，我就不放在 README.md 里了。
 
 `<iframe src='index.html'></iframe>`
 
 不过这个 html 我用其他 md 渲染器也没加载出来。
 
-但下文中这首歌的 `iframe` 在 Obsidian 上可以渲染出来，可能和 Obsidian 是 Electron 开发的有关。
+不过下文中这首歌的 `iframe` 在 Obsidian 上可以渲染出来，可能和 Obsidian 是 Electron 开发的有关。
 
 `<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=100% src="https://music.163.com/outchain/player?type=2&id=1859652717&auto=0&height=66"></iframe>`
+
+最后，我发布在了 Github Page 上，链接：https://dao1023.github.io/IoU/
