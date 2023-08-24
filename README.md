@@ -12,7 +12,7 @@
 
 根据数学公式，把三个参数计算出来。
 
-![四部分](assets/四部分.png)
+[![四部分](assets/四部分.png)](https://github.com/Dao1023/IoU/blob/master/assets/%E5%9B%9B%E9%83%A8%E5%88%86.png)
 
 计算部分如下，相信很容易看出来。
 
